@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #343a40; /* Fallback color */
+            color: white;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ensure full height */
+            background-image: url('/assets/IITI_3.jpg'); /* Background image */
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            flex-direction: column; /* Stack items vertically */
+            text-align: center; /* Center text within the container */
+        }
+
+        .header-logo {
+            /* Additional space around the logo and heading */
+            margin-top: 30px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .logo {
+            width: 150px; /* Logo size */
+            margin-bottom: 20px; /* Space between logo and title */
+        }
+
+        .indore-icon {
+            width: 50px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Logout Button -->
+    <a href="/logout" class="btn btn-danger top-right">Logout</a>
+
+    <!-- Logo and Heading centered -->
+    <div class="header-logo">
+        <img src="../assets/IIT-Indore-Logo.jpg" alt="Logo" class="logo">
+        <h1>Welcome IIT Indore</h1>
+        <p>Indian Institute of Technology, Khandwa Road, Simrol, Indore</p>
+    </div>
+</body>
+</html>
